@@ -1,0 +1,143 @@
+@media (max-widht: 576px){
+
+.navbar{
+    width: 100%;
+}
+
+.categorias__container{
+    padding-top: 10px;
+}
+
+}
+
+
+@media (max-width: 768px) {
+    .fotoProducto{
+        width: 49%;
+    }
+    .container__video{
+        padding-bottom: 80.25%;
+    }
+    .navbar-nav {
+        padding-left: 224px;
+    }
+
+    .hidden-xs {
+        display: none;
+    }
+    .seccionCarrousel{
+        padding: 0;
+        width: 100%;
+        height: 65rem;
+        margin: 0;
+    }
+    .carousel{
+        margin: 0px;
+    }
+    .w-100{
+        display: inline-block;
+    }
+
+    .seccionParrafo{
+        margin: 0;
+        width: 100%;
+    }
+    .imagenesCarrousel{
+        margin-top: 39px;
+        width: 100%;
+    }
+    .img1{
+        width: 100%;
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+    .img2{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .menuInferior{
+        margin: 0;
+        width: 100%;
+    }
+    .menuInferior img {
+        margin: 0;
+        padding: 0;
+    }
+
+    .contenedor{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .navbar{
+        margin-top: 7px;
+        float: right; 
+    }
+
+    .fl{
+        margin-top: 20px;
+    }
+
+    .cat1{
+        margin-left: 0px;
+    }
+
+    .textoSuscribite{
+        text-align: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar{
+        margin-top: 7px;
+        float: right; 
+    }
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .seccionCarrousel{
+        height: 46rem;
+        padding: 0;
+        margin: 0;
+    }
+    .img1{
+        width: 50%;
+    }
+    .img2{
+        width: 53%;
+    }
+    .container-fluid{
+        margin-top: 45px;
+    }
+
+    .contenedor{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .parrafoInicio{
+        margin-left: 46px;
+        margin-right: 46px;
+    }
+
+    .verMas{
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .tituloInicio{
+        text-align: center;
+        margin-left: 46px;
+        margin-right: 46px;
+        font-size: 39px;
+    }
+
+    .navbar-toggler{
+        margin-right: 13px;
+    }
+}

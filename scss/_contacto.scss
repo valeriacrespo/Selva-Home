@@ -1,0 +1,125 @@
+.bg-secondary{
+    background-color:#9f836f;
+}
+
+
+.w-43{
+    width: 34%;
+    font-family: 'Work Sans', sans-serif;
+}
+.w-49{
+    width: 33%;
+    font-family: 'Work Sans', sans-serif;
+}
+.fl{
+    float: left;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0rem;
+    margin-top: 5rem;
+    margin-left: 0rem;
+}
+
+.cat1{
+    margin-left: 8rem;
+}
+
+.titulo{
+    font-family: 'Work Sans', sans-serif;
+}
+
+#form {
+    position: relative;
+    width: 500px;
+    margin: 50px auto 100px auto;
+}
+
+
+input:hover {
+    background: #b3aca7;
+    color: white;
+}
+
+textarea {
+    width: 470px;
+    max-width: 470px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+    font-weight: bold;
+    background: transparent;
+    outline: none;
+    border: transparent;
+    
+    color: #726659;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.875em;
+    
+    border: solid 1px #b3aca7;
+    
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+    background: #d1cdca;
+    color: #5c5c5c;
+}
+
+.mt0{
+    margin-top: 0px!important;
+}
+
+#submit {
+    width: 470px;    
+    padding: 0;
+    margin: -5px 0px 0px 0px;
+    
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.875em;
+    color: #ffffff;
+    
+    outline:none;
+    cursor: pointer;
+    
+    border: solid 1px #9f836f;
+    border-top: none;
+    background-color: #9f836f;
+}
+
+#message{
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+    letter-spacing: 0.5px;
+    font-size: 0.875em;
+}
+
+
+.formcontact {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 0.875em;
+    width: 470px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    
+    background: transparent;
+    outline: none;
+    color: #5c5c5c;
+    
+    border: solid 1px #b3aca7;
+    border-bottom: none;
+    
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+.center-menu{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+}
