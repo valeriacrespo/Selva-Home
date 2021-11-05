@@ -155,7 +155,7 @@ iframe {
 .carousel {
   background-color: #efefef;
   width: 100%;
-  height: 659px;
+  height: 634px;
   margin-top: 0px;
   margin-bottom: 1rem; }
 
@@ -518,7 +518,8 @@ img1, img2 {
   color: white;
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: -9px; }
+  margin-bottom: -9px;
+  text-align: center; }
 
 .logo2 {
   width: 10rem;
@@ -553,7 +554,7 @@ hr {
   font-family: "Work Sans", sans-serif;
   font-size: 12px;
   color: white;
-  margin-left: -703px;
+  margin-left: -574px;
   margin-top: 45px;
   position: absolute;
   text-align: left;
@@ -635,7 +636,9 @@ hr {
   background-color: #9f836f; }
 
 .nombreProducto {
-  font-family: "Raleway", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  color: black;
+  letter-spacing: 0.4px;
   font-weight: bold;
   margin: 0px;
   margin-top: 0.5rem;
@@ -646,10 +649,19 @@ hr {
   margin-bottom: 18px; }
 
 .precioProducto {
+  font-family: "Work Sans", sans-serif;
+  color: black;
   margin-bottom: 20px;
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 0.5px; }
+
+.video__sabana {
+  width: 24%;
+  display: inline-block; }
+
+.video__sabana--bazar {
+  margin-bottom: -6px; }
 
 .container__text {
   font-size: 2.5rem;
@@ -695,9 +707,6 @@ a {
   margin: 0rem;
   margin-top: 5rem;
   margin-left: 0rem; }
-
-.cat1 {
-  margin-left: 8rem; }
 
 .titulo {
   font-family: 'Work Sans', sans-serif; }
@@ -783,7 +792,9 @@ textarea:hover {
   .navbar {
     width: 100%; }
   .categorias__container {
-    padding-top: 10px; } }
+    padding-top: 10px; }
+  .product__container {
+    padding-right: 10px; } }
 
 @media (max-width: 768px) {
   .fotoProducto {
@@ -840,7 +851,11 @@ textarea:hover {
 @media (max-width: 991px) {
   .navbar {
     margin-top: 7px;
-    float: right; } }
+    float: right; }
+  .item {
+    padding: 0px 1px;
+    width: 50% !important;
+    margin-bottom: 25px; } }
 
 @media (min-width: 768px) and (max-width: 1200px) {
   .seccionCarrousel {

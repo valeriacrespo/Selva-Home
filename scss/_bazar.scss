@@ -88,7 +88,9 @@ margin-left: 22px;
 }
 
 .nombreProducto{
-    font-family: $letra-tercera;
+    font-family: $letra-principal;
+    color: black;
+    letter-spacing: 0.4px;
     font-weight: bold;
     margin: 0px;
     margin-top: 0.5rem;
@@ -101,11 +103,21 @@ margin-left: 22px;
 }
 
 .precioProducto{
+    font-family: $letra-principal;
+    color:black;
     margin-bottom: 20px;
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 0.5px;
 }
 
+.video__sabana{
+    width: 24%;
+    display: inline-block;
+}
+
+.video__sabana--bazar{
+    margin-bottom: -6px;
+}
 
  

@@ -8,6 +8,10 @@
     padding-top: 10px;
 }
 
+.product__container{
+    padding-right:10px;
+}
+
 }
 
 
@@ -94,8 +98,13 @@
         margin-top: 7px;
         float: right; 
     }
-}
 
+    .item{
+        padding: 0px 1px;
+        width: 50% !important;
+        margin-bottom: 25px;
+    }
+}
 
 
 
