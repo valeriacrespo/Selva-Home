@@ -788,9 +788,11 @@ textarea:hover {
   margin-left: auto;
   padding-left: 0px; }
 
-@media (max-widht: 576px) {
+@media (min-widht: 320px) and (max-widht: 576px) {
   .navbar {
     width: 100%; }
+  .navbar-nav {
+    padding-left: 0px; }
   .categorias__container {
     padding-top: 10px; }
   .product__container {
@@ -802,7 +804,7 @@ textarea:hover {
   .container__video {
     padding-bottom: 80.25%; }
   .navbar-nav {
-    padding-left: 224px; }
+    padding-left: 0px; }
   .hidden-xs {
     display: none; }
   .seccionCarrousel {
