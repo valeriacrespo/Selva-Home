@@ -10,9 +10,9 @@
 .pre-header__text {
   text-align: center;
   font-size: 0.8rem;
-  font-family: "Work Sans", sans-serif;
+  font-family: "work sans",serif;
   color: white;
-  padding: 12px;
+  padding: 13px;
   font-weight: bold; }
 
 header {
