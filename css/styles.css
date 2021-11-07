@@ -796,13 +796,16 @@ textarea:hover {
   .categorias__container {
     padding-top: 10px; }
   .product__container {
-    padding-right: 10px; } }
+    padding-right: 10px; }
+  .container__video {
+    width: 118%; } }
 
-@media (max-width: 768px) {
+@media (min-widht: 576px) and (max-width: 768px) {
   .fotoProducto {
     width: 49%; }
   .container__video {
-    padding-bottom: 80.25%; }
+    padding-bottom: 80.25%;
+    width: 118%; }
   .navbar-nav {
     padding-left: 0px; }
   .hidden-xs {
