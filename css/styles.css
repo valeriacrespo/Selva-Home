@@ -10,7 +10,7 @@
 .pre-header__text {
   text-align: center;
   font-size: 0.8rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Work Sans", sans-serif;
   color: white;
   padding: 12px;
   font-weight: bold; }
@@ -133,7 +133,8 @@ iframe {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  margin-top: -58px; }
 
 .margen-top {
   padding-top: 210px; }
@@ -156,12 +157,15 @@ iframe {
   background-color: #efefef;
   width: 100%;
   height: 634px;
-  margin-top: 0px;
+  margin-top: -110px;
   margin-bottom: 1rem; }
 
 .carousel_container {
   float: left;
-  margin-top: 0px; }
+  margin-top: 91px; }
+
+.carousel-inner {
+  margin-top: 110px; }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
   display: inline-block;
@@ -179,8 +183,7 @@ iframe {
   margin-right: 48px;
   margin-top: 55px;
   font-family: "Work Sans", sans-serif;
-  font-size: 13px;
-  font-weight: bold;
+  font-size: 14px;
   color: black;
   background-color: #efefef;
   text-align: justify;
@@ -197,8 +200,7 @@ iframe {
 
 .parrafo__texto {
   font-family: "Work Sans", sans-serif;
-  font-size: 13px;
-  font-weight: bold;
+  font-size: 14px;
   color: black;
   text-align: justify;
   line-height: 1.5; }
@@ -339,14 +341,14 @@ hr {
   font-size: 25px;
   color: white;
   letter-spacing: 1px;
-  margin-left: 20%;
+  margin-left: 31%;
   margin-bottom: 22px;
   margin-top: 44px; }
 
 .campoFormulario1 {
   text-align: center;
   padding-bottom: 20px;
-  margin-left: 417px;
+  margin-left: 62%;
   float: left; }
 
 input:focus, select:focus, select, input.form-control:focus {
@@ -508,11 +510,11 @@ img1, img2 {
 .ml69 {
   flex: 0 0 auto;
   width: 8%;
-  margin-left: 33%;
+  margin-left: 46%;
   text-align: center; }
 
 .follow__text {
-  margin-left: 33%;
+  margin-left: 46%;
   margin-right: 0px;
   font-family: "Work Sans", sans-serif;
   color: white;
@@ -558,7 +560,7 @@ hr {
   margin-top: 45px;
   position: absolute;
   text-align: left;
-  padding-left: 10%; }
+  padding-left: 2%; }
 
 .bannerCategorias {
   background-color: #efefef;
@@ -706,7 +708,7 @@ a {
   font-family: 'Work Sans', sans-serif;
   margin: 0rem;
   margin-top: 5rem;
-  margin-left: 0rem; }
+  margin-left: 4rem; }
 
 .titulo {
   font-family: 'Work Sans', sans-serif; }

@@ -13,7 +13,7 @@
 .pre-header__text{
     text-align: center;
     font-size: 0.8rem;
-    font-family: $letra-cuarta;
+    font-family: $letra-principal;
     color: white;
     padding:12px;
     font-weight: bold;
@@ -167,6 +167,7 @@ iframe{
     left: 0;
     width: 100%;
     height: 100%;
+    margin-top: -58px;
 }
 
 .margen-top{
@@ -193,14 +194,18 @@ iframe{
     background-color: $color-secundario;
     width: 100%;
     height: 634px;
-    margin-top:0px;
+    margin-top: -110px;
     margin-bottom: 1rem;
 }
 
 
 .carousel_container{
     float: left;
-    margin-top:0px;
+    margin-top:91px;
+}
+
+.carousel-inner{
+    margin-top: 110px;
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
@@ -221,8 +226,7 @@ iframe{
     margin-right: 48px;
     margin-top: 55px;
     font-family: $letra-principal;
-    font-size: 13px;
-    font-weight:bold;
+    font-size: 14px;
     color: black;
     background-color: $color-secundario;
     text-align: justify;
@@ -241,8 +245,7 @@ iframe{
 
 .parrafo__texto{
     font-family: $letra-principal;
-    font-size: 13px;
-    font-weight:bold;
+    font-size: 14px;
     color: black;
     text-align: justify;
     line-height: 1.5;
@@ -419,7 +422,7 @@ margin-top: 10px;
     font-size: 25px;
     color:white;
     letter-spacing: 1px;
-    margin-left: 20%;
+    margin-left: 31%;
     margin-bottom: 22px;
     margin-top: 44px;
  }
@@ -428,7 +431,7 @@ margin-top: 10px;
  .campoFormulario1{
     text-align: center;
     padding-bottom:20px;
-    margin-left: 417px;
+    margin-left: 62%;
     float: left;
  }
 
@@ -630,12 +633,12 @@ margin-top: 10px;
  .ml69{
     flex: 0 0 auto;
     width: 8%;
-    margin-left: 33%;
+    margin-left: 46%;
     text-align:center;
  }
   
  .follow__text{
-    margin-left: 33%;;
+    margin-left: 46%;
     margin-right: 0px;
     font-family: $letra-principal;
     color: white;
@@ -689,7 +692,7 @@ margin-top: 10px;
     margin-top: 45px;
     position: absolute;
     text-align: left;
-    padding-left: 10%;
+    padding-left: 2%;
 }
  
 
