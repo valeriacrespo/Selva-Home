@@ -1,26 +1,27 @@
 .bg-secondary{
-    background-color:#9f836f;
+    background-color:$color-principal;
 }
-
 
 .w-43{
     width: 34%;
-    font-family: 'Work Sans', sans-serif;
+    font-family: $letra-principal;
 }
+
 .w-49{
     width: 33%;
-    font-family: 'Work Sans', sans-serif;
+    font-family: $letra-principal;
 }
+
 .fl{
     float: left;
-    font-family: 'Work Sans', sans-serif;
+    font-family: $letra-principal;
     margin: 0rem;
     margin-top: 5rem;
     margin-left: 4rem;
 }
 
 .titulo{
-    font-family: 'Work Sans', sans-serif;
+    font-family: $letra-principal;
 }
 
 #form {
@@ -31,8 +32,8 @@
 
 
 input:hover {
-    background: #b3aca7;
-    color: white;
+    background: $dropdown-color;
+    color: $color-letra-tercero;
 }
 
 textarea {
@@ -47,10 +48,10 @@ textarea {
     border: transparent;
     
     color: #726659;
-    font-family: 'Work Sans', sans-serif;
+    font-family: $letra-principal;
     font-size: 0.875em;
     
-    border: solid 1px #b3aca7;
+    border: solid 1px $dropdown-color;
     
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -72,28 +73,28 @@ textarea:hover {
     padding: 0;
     margin: -5px 0px 0px 0px;
     
-    font-family: 'Work Sans', sans-serif;
+    font-family: $letra-principal;
     font-size: 0.875em;
-    color: #ffffff;
+    color: $color-fondo-header;
     
     outline:none;
     cursor: pointer;
     
-    border: solid 1px #9f836f;
+    border: solid 1px $color-principal;
     border-top: none;
-    background-color: #9f836f;
+    background-color: $color-principal;
 }
 
 #message{
-    font-family: 'Work Sans', sans-serif;
-    color: black;
+    font-family: $letra-principal;
+    color: $color-letra-cuarto;
     letter-spacing: 0.5px;
     font-size: 0.875em;
 }
 
 
 .formcontact {
-    font-family: 'Work Sans', sans-serif;
+    font-family: $letra-principal;
     font-weight: bold;
     letter-spacing: 0.5px;
     font-size: 0.875em;
@@ -105,7 +106,7 @@ textarea:hover {
     outline: none;
     color: #5c5c5c;
     
-    border: solid 1px #b3aca7;
+    border: solid 1px $dropdown-color;
     border-bottom: none;
     
     transition: all 0.3s ease-in-out;

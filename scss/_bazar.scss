@@ -8,23 +8,24 @@
  }
 
  .bannerCategorias{
-    background-color: #efefef;
+    background-color: $color-secundario;
     letter-spacing: 2px;
-    font-family: 'Playfair Display', serif;
+    font-family: $letra-secundaria;
     font-size: 3rem;
     text-align: center;
     padding: 30px;
 }
 
 .categorias__container{
-    padding-top: 211px;
+    padding-top: 132px;
 }
 
 .fotoProducto{
     display: inline-block;
     width: 24%;
-    font-family: 'Work Sans', sans-serif;
+    font-family: $letra-principal;
 }
+
 .grillaproductos{
 display:inline;
 margin-left: 22px;
@@ -51,7 +52,7 @@ margin-left: 22px;
 .quick-buy-btn{
     width: 337px;
     height: 52px;
-    color: black;
+    color: $color-letra-cuarto;
     opacity: 0.66;
     position: relative;
     z-index: 3;
@@ -67,7 +68,7 @@ margin-left: 22px;
     display: inline-block;
     font-weight: 400;
     line-height: 1.5;
-    color: white;
+    color: $color-letra-tercero;
     text-align: center;
     font-weight: bold;
     text-decoration: none;
@@ -84,18 +85,17 @@ margin-left: 22px;
     color .15s ease-in-out
     background-color .15s ease-in-out
     box-shadow .15s ease-in-out;
-    background-color: #9f836f;
+    background-color: $color-principal;
 }
 
 .nombreProducto{
     font-family: $letra-principal;
-    color: black;
+    color: $color-letra-cuarto;
     letter-spacing: 0.4px;
     font-weight: bold;
     margin: 0px;
     margin-top: 0.5rem;
     font-size: 15px;
-    color: black;
 }
 
 .fotoProducto{
@@ -104,7 +104,7 @@ margin-left: 22px;
 
 .precioProducto{
     font-family: $letra-principal;
-    color:black;
+    color:$color-letra-cuarto;
     margin-bottom: 20px;
     font-weight:bold;
     font-size: 14px;
@@ -119,5 +119,3 @@ margin-left: 22px;
 .video__sabana--bazar{
     margin-bottom: -6px;
 }
-
- 
