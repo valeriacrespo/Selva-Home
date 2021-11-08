@@ -15,9 +15,6 @@
 .fl{
     float: left;
     font-family: $letra-principal;
-    margin: 0rem;
-    margin-top: 5rem;
-    margin-left: 4rem;
 }
 
 .titulo{
@@ -31,10 +28,6 @@
 }
 
 
-input:hover {
-    background: $dropdown-color;
-    color: $color-letra-tercero;
-}
 
 textarea {
     width: 470px;
