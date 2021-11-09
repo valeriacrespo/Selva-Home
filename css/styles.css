@@ -174,7 +174,7 @@ iframe {
 .carousel {
   background-color: #efefef;
   width: 100%;
-  height: 634px;
+  height: 644px;
   margin-top: -110px;
   margin-bottom: 1rem; }
 
@@ -292,44 +292,24 @@ iframe {
   margin-top: 0; }
 
 /*---------MENU INFERIOR-------- */
-.menuInferior__contenedor--contenedor {
-  margin-left: 20px; }
-
-.contenedor {
-  margin-left: 20px; }
-
 .menuInferior__contenedor {
-  grid-area: menuInferior;
   margin: 1rem;
-  text-align: center; }
-
-.menuInferior {
-  grid-area: menuInferior;
-  margin: 3rem;
   text-align: center; }
 
 .menuInferior__contenedor img {
   margin: 20px; }
 
-.menuInferior img {
-  margin: 20px; }
+.catbazar {
+  opacity: 2; }
 
-.opacidad {
-  opacity: 6;
-  transition: all 1s; }
-
-.opacidad :hover {
+.catbazar:hover {
   opacity: 0.8; }
 
 .menuInferior__contenedor--contenedor {
   position: relative;
   display: inline-block;
-  text-align: center; }
-
-.contenedor {
-  position: relative;
-  display: inline-block;
-  text-align: center; }
+  text-align: center;
+  margin-left: 20px; }
 
 .texto-encima {
   position: absolute;
@@ -498,7 +478,9 @@ footer {
   border: transparent; }
 
 .form__news {
-  padding: 7px; }
+  padding: 7px;
+  font-family: "Work Sans", sans-serif;
+  color: #9f836f; }
 
 .bannerCategorias {
   background-color: #efefef;
