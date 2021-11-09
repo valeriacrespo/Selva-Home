@@ -108,6 +108,14 @@ textarea:hover {
     -ms-transition: all 0.3s ease-in-out;
 }
 
+.btn__form{
+    opacity: 2;
+}
+
+.btn__form:hover{
+    opacity: 0.8;
+}
+
 .center-menu{
     margin-right: auto;
     margin-left: auto;
